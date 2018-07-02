@@ -1,7 +1,6 @@
 package StallsTest;
 
-import Stalls.IceCreamStall;
-import Stalls.TobaccoStall;
+import ThemePark.Stalls.IceCreamStall;
 import org.junit.Before;
 import org.junit.Test;
 

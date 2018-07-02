@@ -1,6 +1,6 @@
 package AttractionsTest;
 
-import Attractions.Park;
+import ThemePark.Attractions.Park;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -12,7 +12,7 @@ public class ParkTest {
 
     @Before
     public void setup(){
-        park = new Park("Pirate Park");
+        park = new Park("Pirate Park", 1);
     }
 
     @Test
@@ -20,5 +20,8 @@ public class ParkTest {
         assertEquals("Pirate Park", park.getName());
     }
 
-
+    @Test
+    public void hasRating(){
+        assertEquals(1, park.getRating());
+    }
 }

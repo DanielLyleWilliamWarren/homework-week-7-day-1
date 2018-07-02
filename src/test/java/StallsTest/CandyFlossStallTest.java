@@ -1,7 +1,6 @@
 package StallsTest;
 
-import Stalls.CandyFlossStall;
-import Stalls.TobaccoStall;
+import ThemePark.Stalls.CandyFlossStall;
 import org.junit.Before;
 import org.junit.Test;
 

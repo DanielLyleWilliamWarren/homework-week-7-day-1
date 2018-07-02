@@ -1,3 +1,5 @@
+package ThemePark;
+
 public class Visitor {
 
     protected int age;

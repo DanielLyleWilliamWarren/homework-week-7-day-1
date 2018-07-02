@@ -1,4 +1,4 @@
-package Stalls;
+package ThemePark.Stalls;
 
 public abstract class Stall {
 

@@ -1,6 +1,8 @@
-package Stalls;
+package ThemePark.Stalls;
 
-public class CandyFlossStall extends Stall{
+import ThemePark.Interfaces.ISecurity;
+
+public class CandyFlossStall extends Stall {
 
     public CandyFlossStall(String name, String ownerName, String parkingSpot){
         super(name, ownerName, parkingSpot);
