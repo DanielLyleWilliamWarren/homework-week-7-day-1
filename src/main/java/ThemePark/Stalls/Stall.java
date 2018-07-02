@@ -1,15 +1,21 @@
 package ThemePark.Stalls;
 
-public abstract class Stall {
+import ThemePark.Interfaces.IReviewed;
+
+import java.util.ArrayList;
+
+public abstract class Stall implements IReviewed {
 
     protected String name;
     protected String ownerName;
     protected String parkingSpot;
+    protected int review;
 
-    public Stall(String name, String ownerName, String parkingSpot){
+    public Stall(String name, String ownerName, String parkingSpot, int review){
         this.name = name;
         this.ownerName = ownerName;
         this.parkingSpot = parkingSpot;
+        this.review = review;
 
     }
 
@@ -24,4 +30,9 @@ public abstract class Stall {
     public String getParkingSpot() {
         return this.parkingSpot;
     }
+
+    public int getRating(){
+        return this.review;
+    }
 }
+
